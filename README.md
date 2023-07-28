@@ -7,8 +7,8 @@ CMS for adding events to Time Mapper. Check out the project's [documentation](ht
 - [virtualenv](https://virtualenv.pypa.io/en/latest/)
 - [postgresql](http://www.postgresql.org/)
 - [redis](http://redis.io/)
-- [travis cli](http://blog.travis-ci.com/2013-01-14-new-client/)
-- [heroku toolbelt](https://toolbelt.heroku.com/)
+- [heroku CLI](https://devcenter.heroku.com/articles/heroku-cli)
+- libpq, nanely the devel package for your distro (for C headers)
 
 # Initialize the project
 Create and activate a virtualenv:
