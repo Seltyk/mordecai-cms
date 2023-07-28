@@ -22,6 +22,7 @@ class Common(Configuration):
         'rest_framework',            # utilities for rest apis
         'rest_framework.authtoken',  # token authentication
         'versatileimagefield',       # image manipulation
+        "django_rq",                 # Redis queuing
 
         # Your apps
         'authentication',
@@ -38,7 +39,8 @@ class Common(Configuration):
         'django.contrib.auth.middleware.AuthenticationMiddleware',
         'django.contrib.messages.middleware.MessageMiddleware',
         'django.middleware.clickjacking.XFrameOptionsMiddleware',
-        'django.middleware.security.SecurityMiddleware'
+        'django.middleware.security.SecurityMiddleware',
+        "whitenoise.middleware.WhiteNoiseMiddleware"
     )
 
     ROOT_URLCONF = 'urls'
